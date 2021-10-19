@@ -4,7 +4,7 @@
 
 - Clone this repository
 - Install the application `npm install`
-- Start the application `npm run start` running on PORT `8080`
+- Start the application `npm run start` running on PORT `8090`
 - Go to http://localhost:8090/
 
 ## Heroku Deployment 
