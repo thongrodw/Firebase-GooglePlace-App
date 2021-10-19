@@ -10,3 +10,7 @@
 ## Heroku Deployment 
 
 - Go to directory `https://firstappbygame.herokuapp.com/`
+
+### API Documentation
+
+- Go to directory `https://documenter.getpostman.com/view/5577779/UV5Xgx7d`
