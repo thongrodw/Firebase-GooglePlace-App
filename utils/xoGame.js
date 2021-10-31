@@ -113,18 +113,23 @@ function XoGame(){
     // this.empthySlot = this.empthySlot
 }
 
-//Test
-// clickEvent(1)
-// clickEvent(3)
-// clickEvent(2)
-// clickEvent(1)
-// clickEvent(6)
-// clickEvent(7)
-// clickEvent(0)
-// clickEvent(4)
-// clickEvent(4)
-// clickEvent(4)
-// clickEvent(4)
+var gameStatus = true
+const game = new XoGame()
+try {
+    while(gameStatus == true){
+        var selectEvent = game.empthySlot[Math.floor(Math.random()*game.empthySlot.length)];
+        let result = game.clickEvent(selectEvent)  
+        if(result.gameactive == false) {
+            console.log(result)
+            break
+        }
+        else{
+            continue
+        }
+    }
+} catch (error) {
+    console.log(result)
+}
 
 module.exports = {
     XoGame
