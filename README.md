@@ -1,17 +1,16 @@
-### Node Express template project
+# Jenosize Test
 
-This project is based on a GitLab [Project Template](https://docs.gitlab.com/ee/gitlab-basics/create-project.html).
+## How to run the program
 
-Improvements can be proposed in the [original project](https://gitlab.com/gitlab-org/project-templates/express).
+- Clone this repository
+- Install the application `npm install`
+- Start the application `npm run start` running on PORT `8090`
+- Go to http://localhost:8090/
 
-### CI/CD with Auto DevOps
+## Heroku Deployment 
 
-This template is compatible with [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/).
+- Go to directory `https://firstappbygame.herokuapp.com/`
 
-If Auto DevOps is not already enabled for this project, you can [turn it on](https://docs.gitlab.com/ee/topics/autodevops/#enabling-auto-devops) in the project settings.
+### API Documentation
 
-### Developing with Gitpod
-
-This template has a fully-automated dev setup for [Gitpod](https://docs.gitlab.com/ee/integration/gitpod.html).
-
-If you open this project in Gitpod, you'll get all Node dependencies pre-installed and Express will open a web preview.
+- Go to directory `https://documenter.getpostman.com/view/5577779/UV5Xgx7d`
