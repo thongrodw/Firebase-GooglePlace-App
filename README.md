@@ -1,4 +1,4 @@
-# Jenosize Test
+# TicTacToe Game
 
 ## How to run the program
 
